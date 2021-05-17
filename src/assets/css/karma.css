@@ -1,0 +1,367 @@
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+.h-75 {
+  height: 75vh;
+}
+
+.invisible {
+  display: none;
+}
+
+table.scroll {
+  width: 100%;
+  margin-top: 1%;
+}
+
+table.scroll input {
+  border: none;
+  border-bottom: solid thin;
+  border-radius: 0px;
+  border-color: rgba(29, 140, 248, 0.3);
+}
+
+table.scroll tbody,
+table.scroll thead {
+  display: block;
+}
+
+table.scroll tbody {
+  height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+table.scroll tbody > tr > td {
+  border: none;
+}
+
+tbody td,
+thead th {
+  width: 20%;
+  padding: 3px;
+  /* Optional */
+}
+
+.input-group {
+  margin-bottom: 0px;
+}
+
+.form-group .textarea {
+  min-height: 210px;
+}
+
+#tablaDeTitulos {
+  overflow: auto;
+  padding-bottom: 10px;
+  max-height: 710px;
+}
+
+.cardScroll {
+  height: 273px;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+#textAreaDescripcion {
+  height: 280px;
+  overflow: auto;
+}
+
+#glosarioTextArea {
+  min-height: 0px;
+  height: 80px;
+  overflow: auto;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 1rem 1rem;
+  margin-bottom: -0.0625rem;
+  background-color: #27293d;
+  border: 0.0625rem solid #31334d;
+}
+
+.modal-content {
+  background: transparent;
+  display: inline;
+}
+
+.modal-lg {
+  max-width: 50%;
+  min-width: 800px;
+  height: 600px;
+  max-height: 600px;
+}
+
+.modal.show .modal-dialog {
+  transform: none;
+}
+
+.modal-open .modal {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content {
+  text-align: center;
+}
+
+.ReactTable .-pagination .-btn {
+  width: 33%;
+}
+
+.ReactTable .-pagination .-previous {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+}
+
+.ReactTable .-pagination .-next {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+}
+
+.ReactTable .-pagination .-center {
+  flex: 1;
+}
+
+.ReactTable .rt-th,
+.ReactTable .rt-td {
+  padding: 0px;
+}
+
+.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+  background-color: rgb(29, 138, 248, 0.2);
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
+  background: #002c6f;
+}
+
+.tab-space {
+  padding: 0;
+}
+
+.nav-pills:not(.nav-pills-icons):not(.nav-pills-just-icons)
+  .nav-item
+  .nav-link {
+  border-radius: 7.5px;
+}
+
+.btn-orange.btn-link {
+  color: #e6b325;
+}
+
+.ReactTable .-pagination .-btn {
+  width: auto;
+}
+
+.ddlOptions-noBorder {
+  border: none;
+  border-bottom: solid thin;
+  border-radius: 0px;
+  border-color: rgba(29, 140, 248, 0.3);
+}
+
+.ddlOptions {
+  background-color: #525f7f;
+  border: none;
+  border-bottom: solid thin;
+}
+
+#options {
+  background-color: #525f7f;
+}
+
+.selectedTableRow {
+  border: solid 1px #1d8cf8;
+  background-color: rgb(29, 140, 248, 0.15);
+}
+
+.main-panel > .navbar {
+  /* border-top: solid 2px #1D8AF8; */
+  background-color: #1e1e2d;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.scrollModal {
+  max-height: 435px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.round {
+  border-radius: 10px;
+}
+
+.loginCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  height: 55%;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.loginLogo {
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  position: absolute;
+}
+
+.formLogin {
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 12%;
+}
+
+.content {
+  margin: 10px;
+  padding: 10px;
+  background-color: transparent;
+  height: 100%;
+}
+
+.card .card-header:not([data-background-color]) {
+  background-color: #ff6a00;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-body {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card {
+  background-color: #eeeeee;
+}
+
+.card-login {
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.input-group-merge {
+  box-shadow: none;
+}
+
+.kar-input-login,
+.kar-input-login:focus {
+  background-color: #eeeeee;
+}
+
+.kar-component {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+
+.kar-icon-color {
+  color: #ff6a00;
+}
+
+.dx-field-item-label-text,
+.kar-label {
+  color: #0556b7;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.dx-field-item-label-location-top {
+  margin: 0px;
+}
+
+.kar-label-black {
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.card-header {
+  padding: 10px 20px;
+}
+
+.card-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.dx-datagrid {
+  border-radius: 10px;
+}
+
+.dx-datagrid-headers,
+.dx-datagrid-header-panel {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.dx-datagrid .dx-row > td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  color: #0556b7;
+  font-weight: bold;
+  font-size: 15px;
+}

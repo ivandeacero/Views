@@ -1,0 +1,1 @@
+window._env = {"NODE_ENV":"development","REACT_APP_OTRO":"Anita lava la tina Editado dos vecs","REACT_APP_VAR":"Esta es una variable de entorno"};
